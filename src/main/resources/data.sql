@@ -1,0 +1,13 @@
+insert into user_role(id,role_name) values( 1,'USER');
+insert into user_role(id,role_name) values( 2,'ADMIN');
+insert into user_privilege(id,privilege_name) values( 1,'canReadUser');
+insert into user_privilege(id,privilege_name) values( 2,'canReadAdmin');
+insert  into user_account(id,username,password,active) values (1,'user1','{noop}user1',1);
+insert  into user_account(id,username,password,active) values (2,'user2','{noop}user2',1);
+insert  into user_account(id,username,password,active) values (3,'admin','{noop}admin',1);
+insert into user_role_to_privilege(id,role_id,privilege_id) values (1,1,1);
+insert into user_role_to_privilege(id,role_id,privilege_id) values (2,2,1);
+insert into user_role_to_privilege(id,role_id,privilege_id) values (3,2,2);
+insert into user_to_role(id,user_id,role_id) values( 1,1,1);
+insert into user_to_role(id,user_id,role_id) values( 2,2,1);
+insert into user_to_role(id,user_id,role_id) values( 3,3,2);

@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.springhow.examples.springboot</groupId>
-    <artifactId>spring-boot-security-database-user-details-service</artifactId>
+    <artifactId>spring-boot-security-rbac</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-boot-security-database-user-details-service</name>
+    <name>spring-boot-security-rbac</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
